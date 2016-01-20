@@ -1,0 +1,371 @@
+/* Add here all your css styles (customizations) V2 */
+ul li {
+	line-height:2;
+}
+
+
+#introheadline {
+	margin:20px 0;
+	padding:0;
+	text-align:center;
+}
+
+#introheadline h1 {
+	color: #555555;
+	margin:0 60px;
+	padding:0;
+	font-size:24px;
+	font-weight:300;
+	line-height:1.4;
+}
+
+/* Happenings
+------------------------------------*/
+#happenings {
+	padding:0;
+	margin-top:40px;
+}
+
+#happenings .media.happening-box:first-child {
+	margin-top:10px;
+}
+
+#happenings .section-header {
+	text-align:center;
+	margin:0 0 10px;
+}
+
+#happenings .section-header h2 {
+	font-size:42px;
+	margin:0;
+	padding:0;
+}
+
+.media.happening-box {
+	margin:25px 0;
+	padding:10px 5px;
+	font-size:16px;
+	line-height:1.4;
+}
+
+.media.happening-box .pull-left {
+	margin-right:10px;
+}
+
+.media.happening-box:hover {
+	background:#fcfcfc;
+	box-shadow:0 0 5px #ddd;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	-moz-transition:box-shadow .2s ease-in-out;
+	-o-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out;
+}
+
+/* Social Block
+------------------------------------*/
+#socialblock {
+	padding:0 0 20px;
+	margin:40px 0;
+	background:#255D76;
+}
+
+#socialblock h2 {
+	font-size:32px;
+	color: #FFF;
+	margin: 20px 0;
+	padding: 0;
+}
+
+#socialblock h3 {
+	margin-top:5px;
+	padding:0 40px;
+	color: #FFF;
+	font-size:18px;
+}
+
+#socialblock p {
+	margin-top:5px;
+	font-weight:300;
+	padding:0 40px;
+	color: #FFF;
+	font-size:16px;
+	text-align:left;
+}
+
+.socialicons {
+	margin:0 0px 15px 0px;
+	padding:0 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#socialblock .newsletter h3 {
+	font-family:BrightonSB-Light;
+	font-size:24px;
+	text-align: center;
+}
+
+.signupform input {
+	width: 70%;
+	border-radius: 8px;
+	margin: 5px 15%;
+	text-align: center;
+}
+
+.signupform input.submit {
+	width: 40%;
+	border-radius: 10px;
+	margin: 5px 30%;
+	text-align: center;
+	font-family:BrightonSB-Medium;
+	font-size: 18px;
+	background: #F27280;
+	border: none;
+	color: #FFF;
+	padding: 5px;
+	box-shadow: 2px 2px 2px #CCC;
+}
+
+/* Seasonal Tasks
+------------------------------------*/
+#seasonal-tasks .col-xs-12.col-sm-4.col-md-3 {
+	padding:5px;
+}
+
+#seasonal-tasks {
+	padding-bottom:70px;
+	padding-top: 0px;
+}
+
+#seasonal-tasks .section-header h2 {
+	font-size:42px;
+	margin:0;
+	padding-bottom:0;
+}
+
+.seasonal-task-wrap {
+	position:relative;
+}
+
+.seasonal-task-wrap img {
+	width:100%;
+}
+
+.seasonal-task-wrap .seasonal-task-inner {
+	top:0;
+	background:transparent;
+	opacity:.8;
+	width:100%;
+	border-radius:0;
+	margin-bottom:0;
+}
+
+.seasonal-task-wrap .seasonal-task-inner h3 {
+	margin:10px 0;
+}
+
+.seasonal-task-wrap .seasonal-task-inner h3 a {
+	font-size:26px;
+	color:#fff;
+	font-weight: 500;
+}
+
+.seasonal-task-wrap .overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	border-radius:0;
+	background:#EA7F65;
+	font-family: Helvetica;
+	color:#fff;
+	font-weight: 500;
+	font-size: 16px;
+	vertical-align:middle;
+	-webkit-transition:opacity 500ms;
+	-moz-transition:opacity 500ms;
+	-o-transition:opacity 500ms;
+	transition:opacity 500ms;
+	padding:30px;
+}
+
+.seasonal-task-wrap .overlay .preview {
+	bottom:0;
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	border-radius:0;
+	background:transparent;
+	text-align:center;
+	color:#fff;
+	display: none;
+}
+
+.seasonal-task-wrap:hover .overlay {
+	opacity:1;
+}
+
+
+
+
+/* Plant Page Styling
+-------------------------------------------------------------------*/
+/* Figure Plants
+------------------------------------*/
+figure {
+	margin:20px 0;
+}
+
+figcaption {
+	font-size:90%;
+	font-style:italic;
+}
+
+/* Column Layout Plants
+------------------------------------*/
+.plantinfo .plantimage {
+	max-height:250px;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.plantinfo .info h2 {
+	margin:0;
+}
+
+/* Treatment Plants
+------------------------------------*/
+.treatment {
+	border:#7ED321;
+	border-style:solid double;
+	background:#F3F9ED;
+	margin-top:40px;
+	padding:20px;
+}
+
+.treatment figure {
+	margin:0 0 20px;
+}
+
+.treatment h3 {
+	color:#72c02c;
+	margin:1px 0 10px;
+}
+
+/* Breadcrumbs box Plants
+------------------------------------*/
+.breadcrumbs {
+	overflow:hidden;
+	padding:0;
+	border-bottom:solid 1px #eee;
+}
+
+.breadcrumbs h1 {
+	color:#777;
+	font-size:18px;
+	margin-top:20px;
+}
+
+.breadcrumb {
+	background:none;
+	padding:15px 15px 4px;
+	margin-bottom:10px;
+}
+
+.breadcrumb a {
+	color:#777;
+	font-size:14px;
+}
+
+.breadcrumb li.active,.breadcrumb li a:hover {
+	color:#72c02c;
+	text-decoration:none;
+}
+
+@media (max-width: 550px) {
+	.breadcrumbs h1.pull-left,.breadcrumbs ul.pull-right {
+		width:100%;
+		text-align:center;
+	}
+
+	.breadcrumbs h1.pull-left {
+		margin-bottom:0;
+	}
+}
+
+/* Align Images
+------------------------------------*/
+img.pull-right {
+	margin:10px 0 5px 10px;
+}
+
+img.pull-left {
+	margin:10px 10px 5px 0;
+}
+
+/* Plant Page Intro Header
+------------------------------------*/
+.intro-header {
+	background:no-repeat center center;
+	background-attachment:scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	min-height:400px;
+}
+
+.intro-header .site-heading {
+	padding:50px 0;
+}
+
+.intro-header .site-heading h2 {
+	margin-top:0;
+	font-size:36px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+.intro-header .site-heading p {
+	margin-top:0;
+	font-size:24px;
+	color:#FFF;
+}
+
+.intro-header .btn {
+	float:right;
+	background:#474C69;
+}
+
+/* Plant Page row with columns
+------------------------------------*/
+.planttable {
+	border-top:1px solid #CCC;
+	padding:20px 0;
+}
+
+.planttable figure {
+	margin:0 0 10px;
+	max-width:330px;
+	margin:0 auto;
+}
+
+/*Others
+------------------------------------*/
+.overflow-h {
+	overflow:hidden;
+}
+
+.overflow-a {
+	overflow:auto;
+}
+
+.overflow-hidden {
+	overflow:hidden;
+}
+
+.space50 {
+	margin-bottom:50px;
+}

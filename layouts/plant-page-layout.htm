@@ -1,0 +1,63 @@
+[staticMenu]
+
+[staticPage]
+
+[session]
+security = "all"
+==
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+            {variable tab="Header" type="text" name="tagline" label="Tagline"}{/variable}
+            {variable tab="Header" type="mediafinder" mode="image" name="banner" label="Banner image"}{/variable}
+
+<header class="header">
+    {% partial "mainnav" %}
+</header><!--/header-->
+
+<div class="container">
+     <div class="title-block">
+      {% partial "titleimage" %}
+      {% partial 'breadcrumbsannuals' %}
+     </div>
+</div>
+
+<div class="container content">
+
+            <div class="row">
+                
+                <div class="col-md-8 left-inner">
+                        {% page %}
+                </div> <!-- End col-md-8 -->
+
+           <div class="col-md-4">
+               <div class="sidebar pull-right">
+                    {% partial "sidebar-spring" %}
+                    {% placeholder sidebarExtra title="SidebarExtra" %}
+               </div>
+
+               <div class="clearfix"></div>
+
+                <div class="treatment">
+                    {% placeholder treatment title="Treatment" %}
+                 </div>
+            </div>
+
+            </div> <!-- End Row -->
+
+</div><!--=== End Container ===-->
+
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+{% partial "scripts" %}
+
+</body>
+</html>

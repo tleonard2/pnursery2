@@ -1,0 +1,40 @@
+title = "Portland Nursery"
+url = "/"
+layout = "corlatelayout"
+description = "Home Page using Corlate"
+is_hidden = 0
+meta_title = "Portland Nursery in Portland"
+meta_description = "Portland Nursery Homepage"
+==
+<section id="main-slider" class="no-margin">
+	{% partial "carousel" %}
+<!--
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+-->
+</section>
+
+<section id="introheadline">
+    <div class="container">
+    <h1>Portland Nursery is yourxx one-stop shop for trees, shrubs, perennials, annuals, vegetables, herbs, flowers and everything else the gardener needs with <a href="locations">two convenient locations.</a></h1>
+    </div>
+</section><!--/#cta-->
+
+<!-- Happenings -->
+<section id="happenings" >
+    {% partial "happenings" %}
+</section><!--end happenings-->
+
+<!-- Happenings -->
+<section id="socialblock" >
+    {% partial "socialblock" %}
+</section><!--end happenings-->
+
+<!-- Bottom block for spring updates -->
+<section id="seasonal-tasks" >
+    {% partial "springupdates" %}
+</section><!--end happenings-->

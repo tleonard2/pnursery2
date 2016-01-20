@@ -1,0 +1,54 @@
+name: Plants
+items:
+    -
+        title: Plants
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isExternal: '0'
+            isHidden: '0'
+            cssClass: ''
+        items:
+            -
+                title: Annuals
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: annuals
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isExternal: '0'
+                    isHidden: '0'
+                    cssClass: ''
+                items:
+                    -
+                        title: 'Brugmansia & Datura'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: plants-annuals-datura
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isExternal: '0'
+                            isHidden: '0'
+                            cssClass: ''
+                    -
+                        title: Begonia
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: plants-annuals-begonia-content
+                        replace: '0'
+                        viewBag:
+                            isExternal: '0'
+                            isHidden: '0'
+                            cssClass: ''

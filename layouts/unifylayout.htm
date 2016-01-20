@@ -1,0 +1,68 @@
+==
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ this.page.meta_description }}">
+	<meta name="keywords" content="{{ this.page.meta_keywords }}">
+    <meta name="author" content="{{ this.page.meta_author }}">
+    <title>{{ this.page.title }} | {{ this.theme.site_name }}</title>
+
+	<!-- core CSS -->
+	{% styles %}
+
+	<!-- Latest compiled and minified CSS -->
+
+	<link rel="stylesheet" href="{{ 'assets/css/unify/bootstsrap.min.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/unify/style.css'|theme }}">
+
+	<link rel="stylesheet" href="{{ 'assets/css/unify/header-default.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/unify/animate.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/unify/line-icons.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/unify/font-awesome.min.css'|theme }}">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/testpage.css'|theme }}">
+
+
+    <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'assets/images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'assets/images/ico/apple-touch-icon-114-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'assets/images/ico/apple-touch-icon-72-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ 'assets/images/ico/apple-touch-icon-57-precomposed.png'|theme }}">
+</head><!--/head-->
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+
+<header id="header">
+    {% partial "unifythemenav" %}
+</header><!--/header test-->
+
+
+                        {% page %}
+
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+<!-- Scripts -->
+
+<script type="text/javascript" src="{{ 'assets/js/unify/jquery.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/unify/bootstrap.min.js'|theme }}"></script>
+
+
+<script type="text/javascript" src="{{ 'assets/js/unify/jquery-migrate.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/unify/modernizr.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/unify/app.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/unify/smoothScroll.js'|theme }}"></script>
+
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>

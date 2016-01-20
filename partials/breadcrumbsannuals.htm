@@ -1,0 +1,19 @@
+[viewBag]
+==
+<!--=== Breadcrumbs ===-->
+        <div class="breadcrumbs">
+            <div class="container">
+                <h1 id="fittext1" class="pull-left">{{ tagline ?: this.page.title }}</h1>
+
+                <ul class="pull-right breadcrumb">
+                    <li><a href="/">Home</a></li>
+
+                    <li><a href="/plants/">Plants</a></li>
+
+                    <li><a href="/plants/annuals/">Annuals</a></li>
+
+                    <li class="active">{{ this.page.title }}</li>
+                </ul>
+            </div>
+        </div><!--/breadcrumbs-->
+        <!--=== End Breadcrumbs ===-->

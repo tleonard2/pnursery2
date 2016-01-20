@@ -1,0 +1,430 @@
+[viewBag]
+==
+<!--=== Header ===-->
+
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+                <img src="{{ 'assets/images/logo2-100.jpg'|theme }}" alt="Portland Nursery" />
+            </a>
+            <!-- End Logo -->
+
+            <!-- Topbar -->
+            <div class="topbar">
+                <ul class="loginbar pull-right">
+                    <li class="hoverSelector"><a>Hours &amp; Locations</a></li>
+                    <li class="topbar-devider"></li>
+                    <li><a href="page_login.html">Classes</a></li>
+                     <li class="topbar-devider"></li>
+                    <li><a href="page_login.html">Sales</a></li>
+                </ul>
+            </div>
+            <!-- End Topbar -->
+
+            <!-- Toggle get grouped for better mobile display -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <!-- End Toggle -->
+        </div><!--/end container-->
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse mega-menu navbar-right">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <!-- Plants -->
+                    <li class="dropdown mega-menu-fullwidth">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Plants
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content disable-icons">
+                                    <div class="container">
+                                        <div class="row equal-height">
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Annuals &amp; Perennials</h3></li>
+
+                                                    <!-- Annuals & Perennials -->
+                                                    <li><a href="/plants/annuals"><i class="fa fa-cogs"></i>Annual Color Spots</a></li>
+
+                                                    <li><a href="#"><i class="fa fa-paint-brush"></i>Perennial Color</a></li>
+
+                                                    <li><a href="#">Ground Covers</a></li>
+
+                                                    <li><a href="#">Plant Combinations</a></li>
+
+                                                    <li><a href="#">Fall &amp; Spring Bulbs</a></li>
+
+                                                    <li><a href="#">A Year in Seeds</a></li>
+
+                                                  <!-- End Annuals & Perennials -->
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Trees, Shrubs &amp; Screens</h3></li>
+
+                                                    <!-- Trees -->
+                                                    <li><a href="#"><i class="fa fa-tree"></i> Evergreen Trees</a></li>
+                                                    <li><a href="#"><i class="fa fa-leaf"></i> Shade &amp; Flowering Trees</a></li>
+                                                    <li><a href="#"><i class="fa fa-tree"></i> Native Trees &amp; Shrubs</a></li>
+
+                                                    <li><a href="#"><i class="fa fa-pagelines"></i> Garden Shrubs</a></li>
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Screens &amp; Hedges</a></li>
+                                                    <li><a href="#"><i class="fa fa-tencent-weibo"></i> Roses</a></li>
+
+                                                    <!-- End Trees -->
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Grasses &amp; Vines</h3></li>
+                                                    <!-- Grasses -->
+
+                                                    <li><a href="#"><i class="fa fa-vine"></i> Annual &amp; Perennial Vines</a></li>
+                                                    <li><a href="#"><i class="fa fa-image"></i> Grasses &amp; Bamboo</a></li>
+
+													<li>&nbsp;</li>
+
+													<li><h3>Edibles</h3></li>
+
+                                                   <li><a href="#"><i class="fa fa-bars"></i> Fruita &amp; Berries</a></li>
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Vegetable & Herb Varieties &amp; Culture</a></li>
+                                                    <!-- End Grasses -->
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Container Gardening</h3></li>
+
+                                                    <!-- Container Gardening -->
+                                                   <li><a href="#"><i class="fa fa-bitbucket"></i> Planting a Container</a></li>
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Planting Recipes for Containers</a></li>
+
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Selecting a Container</a></li>
+
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Potting Services</a></li>
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Houseplants</a></li>
+                                                    <li><a href="#"><i class="fa fa-bars"></i> Indoor &amp; Outdoor Bonsai</a></li>
+                                                    <!-- End Container Gardening -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End Plants -->
+
+                    <!-- Products -->
+                    <li class="dropdown mega-menu-fullwidth">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Outdoor Living
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content disable-icons">
+                                    <div class="container">
+                                        <div class="row equal-height">
+
+                                            <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                   <li><h3>Outdoor Furniture</h3></li>
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/furniture.jpg'|theme }}" alt="garden furniture">Cedar Furniture</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/furniture1.jpg'|theme }}" alt="garden furniture">Furniture image</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Garden Decor</h3></li>
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/arbors.jpg'|theme }}" alt="garden furniture">Arbors</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/art.jpg'|theme }}" alt="garden furniture">Garden Art</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Containers</h3></li>
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/pottery.jpg'|theme }}" alt="garden furniture">Decorative Pots</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/containers.jpg'|theme }}" alt="garden furniture">Pottery</a></li>
+
+												</ul>
+                                            </div>
+
+                                            <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Fountains</h3></li>
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains.jpg'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains1.jpg'|theme }}" alt="garden furniture">Fountains</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Gardener Gifts</h3></li>
+                                                     <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/windchimes.jpg'|theme }}" alt="garden furniture">Windchimes</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                             <div class="col-md-2 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+	                                                <li><h3>Birding</h3></li>
+	                                                <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/birds.jpg'|theme }}" alt="garden furniture">Bird Houses</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/birdfeeder.jpg'|theme }}" alt="garden furniture">Bird Feeders</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                            </div>  <!-- end row -->
+
+                                    </div> <!-- container -->
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End Products -->
+
+                    <!-- Your Garden -->
+                    <li class="dropdown mega-menu-fullwidth">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Seasonal Gardening
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content disable-icons">
+                                    <div class="container">
+                                        <div class="row equal-height">
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                   <li><h3>Your Spring Garden</h3></li>
+                                                   <!-- Landscaping -->
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/navimages/springgarden.png'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                      <li><a href="blog_large_right_sidebar1.html">March Garden Tips</a></li>
+                                                      <li><a href="blog_large_left_sidebar1.html">April Garden Tips</a></li>
+                                                      <li><a href="blog_large_full_width1.html">May Garden Tips</a></li>
+                                                  <!-- Landscaping -->
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Your Summer Garden</h3></li>
+
+                                                   <!-- Projects -->
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains.jpg'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                    <li><a href="blog_large_right_sidebar1.html">June Garden Tips</a></li>
+                                                    <li><a href="blog_large_left_sidebar1.html">July Garden Tips</a></li>
+                                                    <li><a href="blog_large_full_width1.html">August Garden Tips</a></li>
+                                                  <!-- End Projects -->
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Your Fall Garden</h3></li>
+
+                                                   <!-- Projects -->
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains1.jpg'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                    <li><a href="blog_large_right_sidebar1.html">September Garden Tips</a></li>
+                                                    <li><a href="blog_large_left_sidebar1.html">October Garden Tips</a></li>
+                                                    <li><a href="blog_large_full_width1.html">November Garden Tips</a></li>
+                                            </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Your Fall Garden</h3></li>
+
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains.jpg'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                   <li><a href="blog_large_right_sidebar1.html">December Garden Tips</a></li>
+                                                   <li><a href="blog_large_left_sidebar1.html">January Garden Tips</a></li>
+                                                   <li><a href="blog_large_full_width1.html">February Garden Tips</a></li>
+                                               </ul>
+                                            </div>
+
+                                            </div>  <!-- end row -->
+
+                                    </div> <!-- container -->
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End Products -->
+
+<!-- Garden Solutions -->
+                    <li class="dropdown mega-menu-fullwidth">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Garden Solutions
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content disable-icons">
+                                    <div class="container">
+                                        <div class="row equal-height">
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                   <li><h3>Landscaping</h3></li>
+                                                   <!-- Landscaping -->
+                                                    <li><a href="#"><i class="fa fa-cogs"></i>Our Landscaping Services</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/about-design-services.pdf" target="_blank">Our Design Services (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/design-process.pdf" target="_blank">Design Process (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/questionnaire2014.pdf" target="_blank">Landscape Questionnaire (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/landscape-resource-guide.pdf" target="_blank">Landscape Resources (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/DIY-installation-priority-list.pdf" target="_blank">DIY Installation Priority List (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/hegegarden.pdf" target="_blank">Sample Planning Process (pdf)</a></li>
+
+                                                     <li><a href="../docs/landscaping-design/pond-worksheet.pdf" target="_blank">Pond Planning Worksheet (pdf)</a></li>
+                                                  <!-- Landscaping -->
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Garden Projects</h3></li>
+
+                                                   <!-- Projects -->
+                                                    <li><a href="#">Build a Bird Haven</a></li>
+
+                                                    <li><a href="#">Raise Mason Bees</a></li>
+
+                                                    <li><a href="#">Plant a Fragrant Garden</a></li>
+
+                                                    <li><a href="#">Attract Hummingbirds</a></li>
+
+                                                    <li><a href="#">Plant a Rose Garden</a></li>
+
+                                                    <li><a href="#">See more projects...</a></li>
+
+                                                  <!-- End Projects -->
+
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Container Gardening</h3></li>
+
+                                                    <!-- Containers -->
+                                                    <li><a href="#">Planting a Patio or Deck Container</a></li>
+
+                                                    <li><a href="#">Year Round Container Designs</a></li>
+
+                                                    <li><a href="#">Plant an Edible Container Garden</a></li>
+
+                                                    <li><a href="#">Use our Potting Services</a></li>
+
+                                                    <li><a href="#">Pick out a Container</a></li>
+
+                                                    <li><a href="#">Caring for your Container Garden</a></li>
+
+                                                  <!-- End Containers -->
+                                            </ul>
+                                            </div>
+
+                                            <div class="col-md-3 equal-height-in">
+                                                <ul class="list-unstyled equal-height-list">
+                                                    <li><h3>Pests &amp; Diseases</h3></li>
+                                                    <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains.jpg'|theme }}" alt="garden furniture">Gurgling fountains</a></li>
+
+                                                   <li><a href="#">  <img class="img-responsive" src="{{ 'assets/images/outdoorliving/fountains1.jpg'|theme }}" alt="garden furniture">Fountains</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                            </div>  <!-- end row -->
+
+                                    </div> <!-- container -->
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End Products -->
+
+                    <!-- Features -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#">All of our handy brochures</a></li>
+
+                            <li><a href="#">Our Potting Services</a></li>
+
+                            <li><a href="#">Delivery Services</a></li>
+
+                            <li><a href="#">Gift Cards</a></li>
+
+                            <li><a href="#">Newsletter Archive</a></li>
+
+                            <li><a href="#">Caring for your Container Garden</a></li>
+
+                         </ul>
+
+                    </li>
+                    <!-- End Features -->
+
+                    <!-- Misc Pages -->
+                    {#<li class="dropdown">#}
+                    {#    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">#}
+                    {#        Misc#}
+                    {#    </a>#}
+                    {#    <ul class="dropdown-menu pull-right">#}
+                    {#        <li><a href="page_misc_blank.html">Blank page</a></li>#}
+                    {#        <li><a href="page_misc_boxed.html">Boxed Page</a></li>#}
+                    {#        <li><a href="page_misc_boxed_img.html">Boxed Image Page</a></li>#}
+                    {#        <li><a href="page_misc_boxed_fixed_header.html">Boxed Fixed Menu</a></li>#}
+                    {#        <li><a href="page_misc_fixed_header.html">Fixed Menu</a></li>#}
+                    {#        <li><a href="page_misc_dark.html">Dark Page</a></li>#}
+                    {#        <li><a href="page_misc_dark_boxed.html">Dark Boxed Page</a></li>#}
+                    {#        <li><a href="page_misc_dark_other_color.html">Dark Page with Theme Color</a></li>#}
+                    {#        <li><a href="page_misc_sticky_footer.html">Sticky Footer Example</a></li>#}
+                    {#    </ul>#}
+                    {#</li>#}
+                    <!-- End Misc Pages -->
+
+<!-- Search Block -->
+                     <li>
+                        <i class="search fa fa-search search-btn"></i>
+                        <div class="search-open">
+                            <div class="input-group animated fadeInDown">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn-u" type="button">Go</button>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End Search Block -->
+                </ul>
+            </div><!--/end container-->
+        </div><!--/navbar-collapse-->
+
+    <!--=== End Header ===-->

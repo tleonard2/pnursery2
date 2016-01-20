@@ -1,0 +1,40 @@
+==
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+    
+<header class="header">
+    {% partial "mainnav" %}
+</header><!--/header-->
+
+<section id="main-slider">
+    {% partial "slidesheader" %}
+</section><!--/#main-slider-->
+
+<section id="cta" class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            {% content 'cta.htm' %}
+        </div>
+    </div>
+</section><!--/#cta-->
+
+
+<div class="container content">
+    
+    {% page %}
+
+</div>
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+{% partial "scripts" %}
+
+</body>
+</html>

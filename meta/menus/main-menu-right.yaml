@@ -1,0 +1,16 @@
+name: 'Main Menu-right'
+items:
+    -
+        title: 'About Us'
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: about-us
+        replace: '0'
+    -
+        title: Hours
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: hours
+        replace: '0'

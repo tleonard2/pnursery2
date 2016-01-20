@@ -1,0 +1,12 @@
+name: PortlandNursery
+description: 'OctoberCMS Bootstrap powered theme'
+author: 'FiddleFace Web Design'
+homepage: ''
+code: ''
+authorUrl: 'http://fiddleface.com/'
+form:
+    fields:
+        site_name:
+            label: 'Portland Nursery'
+            comment: 'The website name as it should appear on the front-end'
+            default: 'Portland Nursery'
