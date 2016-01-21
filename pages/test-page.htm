@@ -1,0 +1,54 @@
+title = "test page"
+url = "/test-page"
+layout = "corlatelayout"
+is_hidden = 0
+==
+{#<div id="slider">#}
+{#    {% partial "testpartials/slider" %}#}
+{#</div>#}
+
+<div class="space50"></div>
+
+<div id="show-hide">
+    {% partial "testpartials/show-content" %}
+</div>
+
+<div class="space50"></div>
+
+<div id="timeline-post">
+    {% partial "testpartials/overlay" %}
+</div>
+
+<div class="space50"></div>
+
+<div class="container">
+    <div class="row">
+     {% partial "testpartials/skills" %}
+     {% partial "testpartials/accordion" %}
+     {% partial "testpartials/tabbed" %}
+    </div><!--/.row-->
+</div><!--/.container-->
+
+<div class="space50"></div>
+
+<div id="portfolio">
+    {% partial "testpartials/ourworks" %}
+</div>
+
+<div class="space50"></div>
+
+<!-- From Corlate -->
+<!-- Recent Works -->
+<section id="recent-works">
+    {% partial "testpartials/works" %}
+</section>
+
+{#<section id="portfolio" class="movingboxes text-center">#}
+{#	{% partial "testpartials/movingboxes" %}#}
+{#</section>#}
+
+{#<div id="clientlist">#}
+{#    {% partial "testpartials/imagemover" %}#}
+{#</div>#}
+
+{#<div class="space50"></div>#}
