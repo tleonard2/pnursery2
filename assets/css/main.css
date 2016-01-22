@@ -433,6 +433,7 @@ body > section {
 	border:3px solid #c52d2f;
 }
 
+/*
 #recent-works .col-xs-12.col-sm-4.col-md-3 {
 	padding:0;
 }
@@ -443,6 +444,7 @@ body > section {
 
 .recent-work-wrap {
 	position:relative;
+	padding:5px;
 }
 
 .recent-work-wrap img {
@@ -499,6 +501,29 @@ body > section {
 .recent-work-wrap:hover .overlay {
 	opacity:1;
 }
+*/
+/* ** Plant Landing plant lists
+********************************/
+.plant-list-wrap {
+	position:relative;
+	padding:5px;
+}
+
+.plant-list-wrap img {
+	width:100%;
+}
+
+.plant-list-wrap h3 {
+	margin:10px 0;
+}
+
+.plant-list-wrap a {
+	font-size:18px;
+	color:red;
+	text-transform: uppercase;
+}
+/* End Plant Landing plant lists */
+
 
 #services {
 	background:#000 url(../images/services/bg_services.png);

@@ -60,7 +60,8 @@
   }
 
   .feature-wrap h3,
-  .single-services h3{
+  .single-services h3,
+  .plant-list-wrap a{
     font-size: 14px;
   }
 
@@ -159,7 +160,8 @@
    padding: 15px;
   }
 
-  .recent-work-wrap .recent-work-inner h3 a {
+  .recent-work-wrap .recent-work-inner h3 a,
+  .plant-list-wrap a {
     font-size: 20px;
   }
 
