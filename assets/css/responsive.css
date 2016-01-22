@@ -12,6 +12,13 @@
     margin-right: -10px;
   }
 
+   #main-slider .carousel h1 {
+    font-size: 64px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 30px;
+  }
 
 
 }
@@ -93,6 +100,15 @@
 
   ul.social_icons li{
     margin-right: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 45px;
+	line-height: 1;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 20px;
   }
 
 }
@@ -203,14 +219,6 @@
     padding-bottom: 0;
   }
 
-  #main-slider .carousel h1 {
-    font-size: 45px;
-  }
-
-  #main-slider .carousel h2 {
-    font-size: 16px;
-  }
-
   .feature-wrap h2,
   .single-services h2 {
     font-size: 18px;
@@ -220,7 +228,6 @@
   .single-services h3{
     font-size: 14px;
   }
-
 
   .media.accordion-inner .pull-left,
   .media.accordion-inner .media-body{
@@ -248,7 +255,7 @@
       text-align:center;
   }
 
-   #footer .pull-right{
+  #footer .pull-right{
       float: none !important;
   }
 
@@ -296,8 +303,11 @@
 }
 
 /* XS Portrait */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
+
+
 
 
 }
+
 

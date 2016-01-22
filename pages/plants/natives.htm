@@ -1,0 +1,46 @@
+title = "natives"
+url = "/plants/natives"
+layout = "default-full"
+description = "landing page for natives"
+is_hidden = 0
+meta_title = "Native Plants at Portland Nursery and Garden Center"
+meta_description = "Native Plants for the Pacific Northwest at Portland Nursery and Garden Center"
+==
+<div class="container">
+     <div class="title-block">
+        <div class="title-image">
+	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/abutilon/abutilonhd.jpg" alt="abutilon" title="abutilon" >
+        </div>
+
+    {% partial 'breadcrumbsannuals' %}
+     </div>
+</div> <!-- container -->
+
+<div class="container content">
+
+   <div class="row">
+
+    <div class="col-md-6 left-inner">
+
+	    <h2>In the Pacific Northwest, we are fortunate to be home to a wide variety of plant species, rich in color, texture and local history.</h2>
+
+                    <p>Many of the northwest native plants we stock originate from the Willamette Valley, and often specifically from the Portland area. We also have some from east of the Cascades or southern Oregon that are prime candidates for a container or rock garden, bringing their own distinct personality to your yard or patio.</p>
+
+                    <p>We have compiled a List of Northwest Natives that you are likely to find at the nursery at some time during the year. Note: it's a good idea to call for availability, for it can vary from year to year and even within a single season.</p>
+
+     </div> <!-- col-md-8 left-inner -->
+
+
+<div class="col-xs-12 col-sm-8 col-md-6 pull-right">
+
+        {% partial "tabs-natives" %}
+
+</div><!--/.col-sm-6 tabs-->
+
+ </div><!-- End Row -->
+ 
+ <div class="row">
+  {% partial "list-natives" %}
+</div>
+
+</div> <!-- End Container Content -->

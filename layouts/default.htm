@@ -1,4 +1,4 @@
-description = "each element in container, css minimized"
+description = "css minimized"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -10,17 +10,19 @@ description = "each element in container, css minimized"
 	<meta name="keywords" content="{{ this.page.meta_keywords }}">
     <meta name="author" content="{{ this.page.meta_author }}">
     <title>{{ this.page.title }} | {{ this.theme.site_name }}</title>
-	
+
 	<!-- core CSS -->
 	{% styles %}
 	<link href="{{ ['assets/css/bootstrap.min.css',
 		'assets/css/font-awesome.min.css',
-		'assets/css/animate.min.css',
 		'assets/css/prettyPhoto.css',
+		'assets/css/BrightonKit/BrightonKit.css',
+		'assets/css/animate.min.css',
 		'assets/css/main.css',
-		'assets/css/responsive.css',
+		'assets/css/header-defaultpn.css',
 		'assets/css/custom.css',
-		'assets/css/header-default.css',
+		'assets/css/testpage.css',
+		'assets/css/responsive.css',
 	]|theme }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'assets/images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
@@ -30,9 +32,9 @@ description = "each element in container, css minimized"
 </head><!--/head-->
 
 <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
-    
+
 <header class="header">
-    {% partial "mainnav" %}
+    {% partial "unifynav" %}
 </header><!--/header-->
 
 
@@ -48,14 +50,22 @@ description = "each element in container, css minimized"
 <!-- Scripts -->
 <script type="text/javascript" src="{{ 'assets/js/html5shiv.js'|theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/respond.min.js'|theme }}"></script>
-<script type="text/javascript" src="{{ 'assets/js/jquery.js'|theme }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/app.js'|theme }}"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		App.init();
+	});
+</script>
+
 {% framework extras %}
-{% scripts %}             
-         
+{% scripts %}
+
 </body>
 </html>

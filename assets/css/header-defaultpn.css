@@ -23,7 +23,7 @@
 	position: relative;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
 	.header .topbar {
 		margin-bottom: 20px;
 	}
@@ -85,7 +85,7 @@
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
 	.header > .container {
 		margin-bottom: 0;
 	}
@@ -120,7 +120,7 @@
 	border-color: #5fb611;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
 	.header .navbar-toggle {
 		margin-right: 0;
 	}
@@ -148,7 +148,7 @@
 }
 
 /*Navbar Collapse*/
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
   	.header .navbar-collapse,
 	.header .navbar-collapse .container {
 		padding-left: 0;
@@ -179,8 +179,8 @@
 ----------------------------------------------------*/
 
 /*Responsive Navbar*/
-@media (max-width: 991px) {
-	/*Responsive code for max-width: 991px*/
+@media (max-width: 1190px) {
+	/*Responsive code for max-width: 1190px*/
     .header .navbar-header {
         float: none;
     }
@@ -276,7 +276,7 @@
 		padding-bottom: 0;
 	}
 
-	/*Design for max-width: 991px*/
+	/*Design for max-width: 1190px*/
 	.header .navbar-nav > li > a {
 		font-size: 14px;
 		padding: 9px 10px;
@@ -434,7 +434,7 @@
     font-family: FontAwesome;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
   	.header .dropdown-submenu > a:after {
       	content: " ";
   	}
@@ -462,7 +462,7 @@
    	display: block;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
 	.header .dropdown-submenu > .dropdown-menu {
 		display: block;
 		margin-left: 15px;
@@ -541,7 +541,7 @@
 	margin: 0;
 }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 1190px) {
 	.header .navbar-toggle {
 		margin-right: 0;
 	}
@@ -551,7 +551,7 @@
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
 	.header .nav > li > .search {
 		color: #999;
 		width: 35px;
@@ -752,7 +752,7 @@
 }
 
 /*Equal Height List Style*/
-@media (max-width: 991px) {
+@media (max-width: 1190px) {
     /*Equal Height List Style*/
     .header .mega-menu .equal-height-list h3 {
 		color: #555;

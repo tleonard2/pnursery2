@@ -291,8 +291,7 @@ var App = function () {
 }();
 
 
-$(document).ready(function() {
-
+// Added for homepage text sliders
 
 
   $("div.season-box").hover(
@@ -303,6 +302,9 @@ $(document).ready(function() {
         $(this).find("div.content-hide").slideToggle("fast");
     }
   );
+
+
+// this is not needed for above but added for Corlate
 
   $('.flexslider').flexslider({
 		prevText: '',
@@ -332,4 +334,4 @@ $(document).ready(function() {
   });
 
 
-});
+
