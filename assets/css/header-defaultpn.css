@@ -70,7 +70,7 @@
 	z-index: 99;
 	background: #fff;
 	position: relative;
-	border-bottom: solid 2px #eee;
+/* 	border-bottom: solid 2px #eee; */
 }
 
 /*Header Container*/
@@ -159,7 +159,7 @@
 /*Navbar Menu*/
 .header .navbar-nav > li > a {
 	color: #687074;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight:400;
 	text-transform: uppercase;
 }
@@ -329,7 +329,7 @@
 	.header .navbar-nav > li > a {
 		bottom: -2px;
 		position: relative;
-		padding: 9px 30px 9px 20px;
+		padding: 15px 30px 9px 20px;
 	}
 
 	.header .navbar-nav > li > a,
@@ -341,7 +341,7 @@
 	.header .navbar-nav > .active > a {
 		bottom: -2px;
 		position: relative;
-		border-bottom: solid 2px #72c02c;
+/* 		border-bottom: solid 2px #72c02c; */
 	}
 
 	.header .navbar-nav > li > a,
@@ -441,7 +441,7 @@
 }
 
 .header .dropdown > a:after {
-    top: 9px;
+    top: 15px;
     right: 15px;
     content: "\f107";
 }

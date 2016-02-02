@@ -1,34 +1,13 @@
 /* Add here all your css styles (customizations) V2 */
-ul li {
-	line-height:2;
-}
-
-#introheadline {
-	margin:10px 0;
-	padding:0;
-	text-align:center;
-}
-
-#introheadline h1 {
-	color: #555555;
-	margin:0;
-	padding:0;
-	font-size:24px;
-	font-weight:300;
-	line-height:1.4;
-}
-
-.section-header {
-	text-align:center;
-	margin:10px 0;
-}
 
 /* Happenings
 ------------------------------------*/
-
-
 #happenings .media.happening-box:first-child {
 	margin-top:10px;
+}
+
+section#happenings {
+	padding: 0;
 }
 
 #happenings .section-header h2 {
@@ -126,90 +105,6 @@ ul li {
 	box-shadow: 2px 2px 1px #000;
 }
 
-/* Seasonal Tasks with Overlay
-------------------------------------*/
-/* #seasonal-tasks .col-xs-12.col-sm-4.col-md-3 {
-	padding:5px;
-}
-
-#seasonal-tasks {
-	padding-bottom:70px;
-	padding-top: 0px;
-}
-
-#seasonal-tasks .section-header h2 {
-	font-size:42px;
-	margin:0;
-	padding-bottom:0;
-}
-
-.seasonal-task-wrap {
-	position:relative;
-}
-
-.seasonal-task-wrap img {
-	width:100%;
-}
-
-.seasonal-task-wrap .seasonal-task-inner {
-	top:0;
-	background:transparent;
-	opacity:.8;
-	width:100%;
-	border-radius:0;
-	margin-bottom:0;
-}
-
-.seasonal-task-wrap .seasonal-task-inner h3 {
-	margin:10px 0;
-}
-
-.seasonal-task-wrap .seasonal-task-inner h3 a {
-	font-size:26px;
-	color:#fff;
-	font-weight: 500;
-}
-
-.seasonal-task-wrap .overlay {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	opacity:0;
-	border-radius:0;
-	background:#EA7F65;
-	font-family: Helvetica;
-	color:#fff;
-	font-weight: 500;
-	font-size: 16px;
-	vertical-align:middle;
-	-webkit-transition:opacity 500ms;
-	-moz-transition:opacity 500ms;
-	-o-transition:opacity 500ms;
-	transition:opacity 500ms;
-	padding:30px;
-}
-
-.seasonal-task-wrap .overlay .preview {
-	bottom:0;
-	display:inline-block;
-	height:35px;
-	line-height:35px;
-	border-radius:0;
-	background:transparent;
-	text-align:center;
-	color:#fff;
-	display: none;
-}
-
-.seasonal-task-wrap:hover .overlay {
-	opacity:1;
-} */
-
-/* End Seasonal Tasks with Overlay */
-
-
 /* Seasonal Box with text slider
 ------------------------------------*/
 .season-box {
@@ -279,7 +174,7 @@ ul li {
     text-transform: uppercase;
 }
 
-#Container {
+.container.content .sidebar {
     margin-top: 80px;
 }
 
@@ -440,7 +335,53 @@ ul li {
 
 /*- End Products --*/
 
+/* Breadcrumbs box Plants
+------------------------------------*/
+.breadcrumbs {
+	overflow:hidden;
+	padding:0;
+	border-bottom:solid 1px #eee;
+}
 
+.breadcrumbs .container {
+	padding-left: 0;
+}
+
+.breadcrumbs h1 {
+	color:#255D76;
+	font-size:36px;
+	margin-top:20px;
+	text-transform: capitalize;
+}
+
+.breadcrumb {
+	background:none;
+	padding:15px 15px 4px;
+	margin-bottom:10px;
+}
+
+.breadcrumb a {
+	color:#777;
+	font-size:14px;
+}
+
+.breadcrumb li.active,.breadcrumb li a:hover {
+	color:#72c02c;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+
+@media (max-width: 550px) {
+	.breadcrumbs h1.pull-left,.breadcrumbs ul.pull-right {
+		width:100%;
+		text-align:center;
+	}
+
+	.breadcrumbs h1.pull-left {
+		margin-bottom:0;
+	}
+}
+/*  End Breadcrumbs */
 
 /* Figure Plants
 ------------------------------------*/
@@ -449,7 +390,6 @@ figure {
 }
 
 figcaption {
-	font-size:90%;
 	font-style:italic;
 }
 
@@ -472,7 +412,7 @@ figcaption {
 	border-style:solid double;
 	background:#F3F9ED;
 	margin-top:40px;
-	padding:20px;
+	padding:0px 20px 20px 20px;
 }
 
 .treatment figure {
@@ -482,47 +422,6 @@ figcaption {
 .treatment h3 {
 	color:#72c02c;
 	margin:1px 0 10px;
-}
-
-/* Breadcrumbs box Plants
-------------------------------------*/
-.breadcrumbs {
-	overflow:hidden;
-	padding:0;
-	border-bottom:solid 1px #eee;
-}
-
-.breadcrumbs h1 {
-	color:#777;
-	font-size:18px;
-	margin-top:20px;
-}
-
-.breadcrumb {
-	background:none;
-	padding:15px 15px 4px;
-	margin-bottom:10px;
-}
-
-.breadcrumb a {
-	color:#777;
-	font-size:14px;
-}
-
-.breadcrumb li.active,.breadcrumb li a:hover {
-	color:#72c02c;
-	text-decoration:none;
-}
-
-@media (max-width: 550px) {
-	.breadcrumbs h1.pull-left,.breadcrumbs ul.pull-right {
-		width:100%;
-		text-align:center;
-	}
-
-	.breadcrumbs h1.pull-left {
-		margin-bottom:0;
-	}
 }
 
 /* Align Images
@@ -574,6 +473,10 @@ img.pull-left {
 .planttable {
 	border-top:1px solid #CCC;
 	padding:20px 0;
+}
+
+.planttable h2 {
+	margin: 0
 }
 
 .planttable figure {
