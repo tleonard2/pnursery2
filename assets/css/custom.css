@@ -349,14 +349,14 @@ section#happenings {
 
 .breadcrumbs h1 {
 	color:#255D76;
-	font-size:36px;
+	font-size:32px;
 	margin-top:20px;
-	text-transform: capitalize;
+	text-transform: sentence;
 }
 
 .breadcrumb {
 	background:none;
-	padding:15px 15px 4px;
+	padding:30px 15px 4px;
 	margin-bottom:10px;
 }
 
@@ -368,7 +368,7 @@ section#happenings {
 .breadcrumb li.active,.breadcrumb li a:hover {
 	color:#72c02c;
 	text-decoration:none;
-	text-transform: capitalize;
+	text-transform: sentence;
 }
 
 @media (max-width: 550px) {
@@ -508,7 +508,6 @@ img.pull-left {
 .timeline-thumb {
     position: relative;
     text-align: center;
-	padding: 1px 4px 1px 3px;
 }
 
 .timeline-thumb:hover {
@@ -517,6 +516,8 @@ img.pull-left {
 
 .timeline-thumb .thumb img {
     width: 100%;
+    height: 100%;
+	padding: 0 3px;
     overflow: hidden;
 }
 
