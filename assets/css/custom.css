@@ -530,6 +530,7 @@ img.pull-left {
     left: 0;
     visibility: hidden;
     opacity: 0;
+    padding: 0 3px;
 }
 
 .timeline-thumb:hover .overlay {
