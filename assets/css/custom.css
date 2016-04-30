@@ -1,5 +1,10 @@
 /* Add here all your css styles (customizations) V2 */
 
+div.col-md-8.left-inner {
+	width: 63%;
+	margin-right: 3%;
+}
+
 /* Happenings
 ------------------------------------*/
 #happenings .media.happening-box:first-child {
