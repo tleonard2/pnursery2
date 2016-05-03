@@ -356,7 +356,7 @@ section#happenings {
 	color:#255D76;
 	font-size:32px;
 	margin-top:20px;
-	text-transform: sentence;
+	text-transform:capitalize;
 }
 
 .breadcrumb {
@@ -373,7 +373,7 @@ section#happenings {
 .breadcrumb li.active,.breadcrumb li a:hover {
 	color:#72c02c;
 	text-decoration:none;
-	text-transform: sentence;
+	text-transform: capitalize;
 }
 
 @media (max-width: 550px) {
@@ -485,9 +485,8 @@ img.pull-left {
 }
 
 .planttable figure {
-	margin:0 0 10px;
 	max-width:330px;
-	margin:0 auto;
+	margin:10px auto;
 }
 
 /*Others
