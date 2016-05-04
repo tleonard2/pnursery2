@@ -1,5 +1,10 @@
 /* Add here all your css styles (customizations) V2 */
 
+div.col-md-8.left-inner {
+	width: 63%;
+	margin-right: 3%;
+}
+
 /* Happenings
 ------------------------------------*/
 #happenings .media.happening-box:first-child {
@@ -351,7 +356,7 @@ section#happenings {
 	color:#255D76;
 	font-size:32px;
 	margin-top:20px;
-	text-transform: sentence;
+	text-transform:capitalize;
 }
 
 .breadcrumb {
@@ -368,7 +373,7 @@ section#happenings {
 .breadcrumb li.active,.breadcrumb li a:hover {
 	color:#72c02c;
 	text-decoration:none;
-	text-transform: sentence;
+	text-transform: capitalize;
 }
 
 @media (max-width: 550px) {
@@ -480,9 +485,8 @@ img.pull-left {
 }
 
 .planttable figure {
-	margin:0 0 10px;
 	max-width:330px;
-	margin:0 auto;
+	margin:10px auto;
 }
 
 /*Others
@@ -530,6 +534,7 @@ img.pull-left {
     left: 0;
     visibility: hidden;
     opacity: 0;
+    padding: 0 3px;
 }
 
 .timeline-thumb:hover .overlay {
