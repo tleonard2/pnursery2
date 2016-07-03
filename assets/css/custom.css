@@ -2418,6 +2418,9 @@ section#happenings {
 	font-size:32px;
 	margin-top:20px;
 	text-transform:capitalize;
+	font-family:BrightonSB-Light;
+	font-weight:normal;
+	font-style:normal;
 }
 
 .breadcrumb {
