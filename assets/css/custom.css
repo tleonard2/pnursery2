@@ -2062,6 +2062,10 @@ div.col-md-8.left-inner {
 	margin-right: 3%;
 }
 
+blockquote {
+	font-size: 16px;
+}
+
 /* Happenings
 ------------------------------------*/
 #happenings .media.happening-box:first-child {
