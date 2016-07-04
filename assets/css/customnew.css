@@ -1,0 +1,581 @@
+/* ---------------------------------------------------------------------- */
+
+/* Add here all your css styles (customizations) V2 */
+
+div.col-md-8.left-inner {
+	width: 63%;
+	margin-right: 3%;
+}
+
+blockquote {
+	font-size: 16px;
+}
+
+/* Happenings
+------------------------------------*/
+#happenings .media.happening-box:first-child {
+	margin-top:10px;
+}
+
+section#happenings {
+	padding: 0;
+}
+
+#happenings .section-header h2 {
+	font-size:42px;
+	margin:0;
+	padding:0;
+}
+
+.media.happening-box {
+	margin:25px 0;
+	padding:10px 5px;
+	font-size:16px;
+	line-height:1.4;
+}
+
+.media.happening-box .pull-left {
+	margin-right:10px;
+}
+
+.media.happening-box:hover {
+	background:#fcfcfc;
+	box-shadow:0 0 5px #ddd;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	-moz-transition:box-shadow .2s ease-in-out;
+	-o-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out;
+}
+
+/* Social Block
+------------------------------------*/
+#socialblock {
+	padding:0 0 20px;
+	margin:0 0 60px 0;
+	background:#255D76;	font-weight:400;
+}
+
+#socialblock h2 {
+	font-size:32px;
+	color: #FFF;
+	margin: 20px 0;
+	padding: 0;
+}
+
+#socialblock h3 {
+	margin-top:5px;
+	color: #FFF;
+	font-size:18px;
+	font-weight:400;
+}
+
+#socialblock p {
+	margin-top:5px;
+	font-weight:400;
+	color: #FFF;
+	font-size:16px;
+	text-align:left;
+}
+
+.socialicons {
+	margin:0 0px 15px 0px;
+	padding:0 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#socialblock .newsletter h2 {
+	margin: 20px 0 0 0;
+}
+
+#socialblock .newsletter h3 {
+	font-family:BrightonSB-Light;
+	font-size:24px;
+	text-align: center;
+}
+
+.signupform input {
+	width: 70%;
+	border-radius: 8px;
+	margin: 5px 15%;
+	text-align: center;
+	padding: 5px;
+}
+
+.signupform input.submit {
+	width: 40%;
+	border-radius: 10px;
+	margin: 10px 30%;
+	text-align: center;
+	font-family:BrightonSB-Medium;
+	font-size: 18px;
+	background: #F27280;
+	border: none;
+	color: #FFF;
+	padding: 5px;
+	box-shadow: 2px 2px 1px #000;
+}
+
+/* Seasonal Box with text slider
+------------------------------------*/
+.season-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.season-thumb {
+    overflow: hidden;
+    position: relative;
+}
+
+.season-thumb img {
+    width: 100%;
+}
+
+.season-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(37, 93, 118, 0.7);
+/*     background-color: rgba(114, 192, 44, 0.7); */
+    color: #fff;
+    padding: 15px;
+}
+
+.content-show a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content-show span {
+    color: #f78e21;
+}
+
+.content-hide {
+    margin-top: 15px;
+    display: none;
+}
+
+.content-hide p {
+    color: #fff;
+}
+
+/* End Seasonal Box with text slider */
+
+
+/* Plant Page Styling
+-------------------------------------------------------------------*/
+/*-- Landing Page Products --*/
+
+#product-heading {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+#product-heading h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container.content .sidebar {
+    margin-top: 80px;
+}
+
+#Container .mix {
+    display: none;
+}
+
+.portfolio-wrapper {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+#filters {
+    text-align: center;
+}
+
+#filters ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#filters li {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+}
+
+#filters span {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 15px;
+}
+
+#filters span:hover {
+    color: #f78e21;
+    transition: all 0.3s ease-in;
+}
+
+.label-text a {
+    color: #333;
+}
+
+.label-text a:hover {
+    color: #f78e21;
+}
+
+.label-text h3 {
+    margin: 10px 0 2px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.label-text span {
+    color: #777;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: block;
+    color: #f78e21
+}
+
+.portfolio-thumb img {
+    width: 100%;
+}
+
+.portfolio-thumb {
+    position: relative;
+}
+
+.hover-iner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-iner a {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    margin-left: -18px;
+    margin-top: -18px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #f78e21;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.hover-iner img {
+    width: auto;
+}
+
+.hover-iner span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 190px;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    color: #f78e21;
+    font-weight: 300;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-wrapper:hover .portfolio-thumb .hover {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.pagination {
+    margin-top: 60px;
+}
+
+.pagination ul {
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination a {
+    background-color: #444;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.pagination a:hover {
+    background-color: #f78e21;
+}
+
+/*- End Products --*/
+
+/* Breadcrumbs box Plants
+------------------------------------*/
+.breadcrumbs {
+	overflow:hidden;
+	padding:0;
+	border-bottom:solid 1px #eee;
+}
+
+.breadcrumbs .container {
+	padding-left: 0;
+}
+
+.breadcrumbs h1 {
+	color:#255D76;
+	font-size:32px;
+	margin-top:20px;
+	text-transform:capitalize;
+	font-family:BrightonSB-Light;
+	font-weight:normal;
+	font-style:normal;
+}
+
+.breadcrumb {
+	background:none;
+	padding:30px 15px 4px;
+	margin-bottom:10px;
+}
+
+.breadcrumb a {
+	color:#777;
+	font-size:14px;
+}
+
+.breadcrumb li.active,.breadcrumb li a:hover {
+	color:#72c02c;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+
+@media (max-width: 550px) {
+	.breadcrumbs h1.pull-left,.breadcrumbs ul.pull-right {
+		width:100%;
+		text-align:center;
+	}
+
+	.breadcrumbs h1.pull-left {
+		margin-bottom:0;
+	}
+}
+/*  End Breadcrumbs */
+
+/* Figure Plants
+------------------------------------*/
+figure {
+	margin:20px 0;
+}
+
+figure.pull-left {
+	margin: 0 20px 0 0;
+}
+
+figure.pull-right {
+	margin: 0 0 0 20px;
+}
+
+figcaption {
+	font-style:italic;
+}
+
+/* Column Layout Plants
+------------------------------------*/
+.plantinfo .plantimage {
+	max-height:250px;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.plantinfo .info h2 {
+	margin:0;
+}
+
+/* Treatment Plants
+------------------------------------*/
+.treatment {
+	border:#7ED321;
+	border-style:solid double;
+	background:#F3F9ED;
+	margin-top:40px;
+	padding:0px 20px 20px 20px;
+}
+
+.treatment figure {
+	margin:0 0 20px;
+}
+
+.treatment h3 {
+	color:#72c02c;
+	margin:1px 0 10px;
+}
+
+/* Align Images
+------------------------------------*/
+img.pull-right {
+	margin:10px 0 5px 10px;
+}
+
+img.pull-left {
+	margin:10px 10px 5px 0;
+}
+
+/* Plant Page Intro Header
+------------------------------------*/
+.intro-header {
+	background:no-repeat center center;
+	background-attachment:scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	min-height:400px;
+}
+
+.intro-header .site-heading {
+	padding:50px 0;
+}
+
+.intro-header .site-heading h2 {
+	margin-top:0;
+	font-size:36px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+.intro-header .site-heading p {
+	margin-top:0;
+	font-size:24px;
+	color:#FFF;
+}
+
+.intro-header .btn {
+	float:right;
+	background:#474C69;
+}
+
+/* Plant Page row with columns
+------------------------------------*/
+.planttable {
+	border-top:1px solid #CCC;
+	padding:20px 0;
+}
+
+.planttable h2 {
+	margin: 0
+}
+
+.planttable figure {
+	max-width:330px;
+	margin:10px auto;
+}
+
+/*Others
+------------------------------------*/
+.overflow-h {
+	overflow:hidden;
+}
+
+.overflow-a {
+	overflow:auto;
+}
+
+.overflow-hidden {
+	overflow:hidden;
+}
+
+.space50 {
+	margin-bottom:50px;
+}
+
+/*-- Timeline --*/
+
+.timeline-thumb {
+    position: relative;
+    text-align: center;
+}
+
+.timeline-thumb:hover {
+    border-color: #f78e21;
+}
+
+.timeline-thumb .thumb img {
+    width: 100%;
+    height: 100%;
+	padding: 0 3px;
+    overflow: hidden;
+}
+
+.timeline-thumb .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0 3px;
+}
+
+.timeline-thumb:hover .overlay {
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.timeline-caption h4 {
+    padding-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 3px 0;
+}
+
+.timeline-caption p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #f78e21;
+}
+
+/*-- End Timeline --*/

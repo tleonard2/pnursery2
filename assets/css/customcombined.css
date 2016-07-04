@@ -241,10 +241,6 @@ h1 {
 	font-size:36px;
 }
 
-.left-inner h1 {
-	font-family:BrightonSB-Medium;
-}
-
 .headline h2 {
 	font-size:24px;
 }
@@ -2456,6 +2452,14 @@ section#happenings {
 ------------------------------------*/
 figure {
 	margin:20px 0;
+}
+
+figure.pull-left {
+	margin: 0 20px 0 0;
+}
+
+figure.pull-right {
+	margin: 0 0 0 20px;
 }
 
 figcaption {
