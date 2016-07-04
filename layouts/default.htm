@@ -1,4 +1,4 @@
-description = "css minimized"
+description = "css not minimized - mainly corlate"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -17,19 +17,17 @@ description = "css minimized"
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<link href="{{ [
-		'assets/css/font-awesome.min.css',
-		'assets/css/prettyPhoto.css',
-		'assets/css/BrightonKit/BrightonKit.css',
-		'assets/css/animate.min.css',
-		'assets/css/main.css',
-		'assets/css/responsive.css',
-		'assets/css/header-defaultpn.css',
-		'assets/css/custom.css',
-		'assets/css/testpage.css',
-	]|theme }}" rel="stylesheet">
+	<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/prettyPhoto.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/BrightonKit/BrightonKit.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/animate.min.css'|theme }}">
 
+	<link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/header-defaultpn.css'|theme }}">
 
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
 
     <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'assets/images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
