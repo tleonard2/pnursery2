@@ -1,0 +1,74 @@
+description = "css not minimized - version 1"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ this.page.meta_description }}">
+	<meta name="keywords" content="{{ this.page.meta_keywords }}">
+    <meta name="author" content="{{ this.page.meta_author }}">
+    <title>{{ this.page.title }} | {{ this.theme.site_name }}</title>
+
+	<!-- core CSS -->
+	{% styles %}
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/prettyPhoto.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/BrightonKit/BrightonKit.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/animate.min.css'|theme }}">
+
+	<link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/header-defaultpn.css'|theme }}">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
+
+    <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'assets/images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'assets/images/ico/apple-touch-icon-114-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'assets/images/ico/apple-touch-icon-72-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ 'assets/images/ico/apple-touch-icon-57-precomposed.png'|theme }}">
+</head><!--/head-->
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+
+<header id="header" class="header">
+    {% partial "unifynav" %}
+</header><!--/header test-->
+
+
+                        {% page %}
+
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+<!-- Scripts -->
+<script type="text/javascript" src="{{ 'assets/js/html5shiv.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/respond.min.js'|theme }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/app.js'|theme }}"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		App.init();
+	});
+</script>
+
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>
