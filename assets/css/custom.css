@@ -490,6 +490,14 @@ img.pull-left {
 	background:#474C69;
 }
 
+.container.content .col-md-8.left-inner p:first-child {
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 300;
+    font-family: 'Lato',sans-serif;
+    color: #255D76;
+}
+
 /* Plant Page row with columns
 ------------------------------------*/
 .planttable {
